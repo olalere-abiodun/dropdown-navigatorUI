@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --default-color: hsl(0, 0%, 98%);
+    --accent-color: hsl(0, 0%, 41%);
+    --contrast-color: hsl(0, 0%, 8%);
+}
+html, body {
+    font-family: 'Epilogue', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: var(--default-color);
+}
+
+
+
+p {
+    color: var(--contrast-color);
+}
