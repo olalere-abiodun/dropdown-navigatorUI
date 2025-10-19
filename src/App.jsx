@@ -1,5 +1,6 @@
 import React from "react"
 import Header from "./components/Header"
+import Navbar from "./components/Nav"
 
 
 function App() {
@@ -7,12 +8,12 @@ function App() {
   return (
     <>
       <Header />
-
     </>
   )
 }
 
 export default App
+
 
     
   

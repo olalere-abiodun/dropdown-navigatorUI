@@ -9,7 +9,6 @@
 }
 html, body {
     font-family: 'Epilogue', sans-serif;
-    overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: var(--default-color);
 }
