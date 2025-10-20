@@ -12,7 +12,13 @@ html, body {
     scroll-behavior: smooth;
     background-color: var(--default-color);
 }
-
+.hero-col-2 {
+    background-image: url(../../../public/assets/images/image-hero-desktop.png);
+    height:90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 
 p {

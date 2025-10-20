@@ -12,12 +12,12 @@ function Header(){
   {/* Nav Menu */}
   <nav>
     {/* desktop  */}
-    <ul className="hidden md:flex items-center space-x-8 ms-15 text-base text-gray-500 ">
+    <ul className="hidden md:flex items-center space-x-5 ms-15 text-sm text-gray-500 ">
       <li className="relative group hover:text-black">
         <button className="flex items-center gap-2">
           Features <img src="/assets/images/icon-arrow-down.svg" alt="" />
         </button>
-        <ol className="absolute hidden text-gray-500 group-hover:block bg-white shadow-md rounded-md mt-0 -ms-15 p-4 space-y-2 w-35 z-50 text-base">
+        <ol className="absolute hidden text-gray-500 group-hover:block bg-white shadow-md rounded-md mt-0 -ms-15 p-4 space-y-2 w-35 z-50 text-sm">
           <li><a href="#" className="flex items-center gap-3 hover:text-black"><img src="/assets/images/icon-todo.svg" alt="" />Todo List</a></li>
           <li><a href="#" className="flex items-center gap-3 hover:text-black"><img src="/assets/images/icon-calendar.svg" alt="" />Calendar</a></li>
           <li><a href="#" className="flex items-center gap-3 hover:text-black"><img src="/assets/images/icon-reminders.svg" alt="" />Reminders</a></li>
@@ -29,7 +29,7 @@ function Header(){
         <button className="flex items-center gap-2">
           Company <img src="/assets/images/icon-arrow-down.svg" alt="" />
         </button>
-        <ol className="absolute hidden text-gray-500 group-hover:block bg-white shadow-md rounded-md mt-0 p-3 space-y-2 w-26 -ms-5 z-50 text-base">
+        <ol className="absolute hidden text-gray-500 group-hover:block bg-white shadow-md rounded-md mt-0 p-3 space-y-2 w-26 -ms-5 z-50 text-sm">
           <li><a href="#" className="hover:text-black">History</a></li>
           <li><a href="#" className="hover:text-black">Our Team</a></li>
           <li><a href="#" className="hover:text-black">Blog</a></li>
@@ -42,7 +42,7 @@ function Header(){
   </nav>
 
   {/* Buttons */}
-  <section className="hidden md:flex items-center space-x-8 ms-auto text-base">
+  <section className="hidden md:flex items-center space-x-5 ms-auto text-sm">
     <a href="#" className="text-gray-500 hover:text-black">Login</a>
     <button className="border-2 border-gray-500 hover:border-black text-gray-500 hover:text-black rounded-lg px-4 py-1 ">
       Register
@@ -68,7 +68,7 @@ function Header(){
         <button className="flex items-center gap-4">
           Features <img src="/assets/images/icon-arrow-down.svg" alt="" />
         </button>
-        <ol className="hidden text-gray-500 group-hover:block  mt-0 -ms-15 p-4 space-y-2 w-35 z-50 text-base">
+        <ol className="hidden text-gray-500 group-hover:block  mt-0 -ms-15 p-4 space-y-2 w-35 z-50 text-sm">
           <li><a href="#" className="flex items-center gap-3 hover:text-black"><img src="/assets/images/icon-todo.svg" alt="" />Todo List</a></li>
           <li><a href="#" className="flex items-center gap-3 hover:text-black"><img src="/assets/images/icon-calendar.svg" alt="" />Calendar</a></li>
           <li><a href="#" className="flex items-center gap-3 hover:text-black"><img src="/assets/images/icon-reminders.svg" alt="" />Reminders</a></li>
@@ -80,7 +80,7 @@ function Header(){
         <button className="flex items-center gap-3">
           Company <img src="/assets/images/icon-arrow-down.svg" alt="" />
         </button>
-        <ol className="absolute hidden text-gray-500 group-hover:block bg-white shadow-md rounded-md mt-0 p-3 space-y-2 w-24 z-50 text-base">
+        <ol className="absolute hidden text-gray-500 group-hover:block bg-white shadow-md rounded-md mt-0 p-3 space-y-2 w-24 z-50 text-sm">
           <li><a href="#" className="hover:text-black">History</a></li>
           <li><a href="#" className="hover:text-black">Our Team</a></li>
           <li><a href="#" className="hover:text-black">Blog</a></li>
@@ -91,7 +91,7 @@ function Header(){
       <li><a href="#" className="hover:text-black">About</a></li>
     </ul>
   </nav>
-  <section className="flex flex-col items-center justify-center space-y-4 text-base">
+  <section className="flex flex-col items-center justify-center space-y-4 text-sm">
     <a href="#" className="text-gray-500 hover:text-black">Login</a>
     <button className="flex w-[100%] justify-center border-2 border-gray-500 hover:border-black text-gray-500 hover:text-black rounded-lg  py-1 ">
       Register
