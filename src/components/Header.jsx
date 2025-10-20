@@ -5,14 +5,14 @@ function Header(){
 
     return  (   
     <>
-    <header className="flex px-6 py-6">
+    <header className="flex px-15 py-6">
   {/* Logo */}
   <img src="/assets/images/logo.svg" alt="Logo" className="h-6" />
 
   {/* Nav Menu */}
   <nav>
     {/* desktop  */}
-    <ul className="hidden md:flex items-center space-x-5 ms-15 text-sm text-gray-500 ">
+    <ul className="hidden md:flex items-center space-x-5 ms-15 text-sm text-gray-500 font-semibold ">
       <li className="relative group hover:text-black">
         <button className="flex items-center gap-2">
           Features <img src="/assets/images/icon-arrow-down.svg" alt="" />
@@ -42,7 +42,7 @@ function Header(){
   </nav>
 
   {/* Buttons */}
-  <section className="hidden md:flex items-center space-x-5 ms-auto text-sm">
+  <section className="hidden md:flex items-center space-x-5 ms-auto text-sm font-semibold">
     <a href="#" className="text-gray-500 hover:text-black">Login</a>
     <button className="border-2 border-gray-500 hover:border-black text-gray-500 hover:text-black rounded-lg px-4 py-1 ">
       Register
@@ -57,7 +57,7 @@ function Header(){
 </header>
     {/* Mobile  */}
 {isNavOpen && (
-    <section className="absolute md:hidden w-[250px] space-y-8 px-6 py-6 me-0 top-0 right-0 bg-white h-screen shadow-md block justify-end items-start">
+    <section className="absolute md:hidden w-[250px] space-y-8 px-6 py-6 me-0 top-0 right-0 bg-white h-screen shadow-md block justify-end items-start font-semibold">
       <button className="flex md:hidden ms-auto"
       onClick={()=> SetNavOpen(!isNavOpen)}>
     <img src="/assets/images/icon-close-menu.svg" alt="" />
