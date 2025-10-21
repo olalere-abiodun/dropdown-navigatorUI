@@ -14,7 +14,7 @@ function Hero() {
             <span className="inline lg:hidden">Make</span>{" "}
             <span className="inline lg:inline">remote work</span>
           </h1>
-          <p className="lg:mt-15 font-semibold w-screen lg:w-[350px] lg:text-[14px] lg:font-bold">
+          <p className="lg:mt-15 font-medium lg:w-[350px] lg:text-[14px] lg:font-bold">
             Get your team in sync, no matter your location. Streamline
             processes, create team rituals, and watch productivity soar.
           </p>
