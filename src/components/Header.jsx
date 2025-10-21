@@ -5,7 +5,7 @@ function Header(){
 
     return  (   
     <>
-    <header className="flex px-15 py-6">
+    <header className="flex px-6 py-7 lg:px-15 lg:py-6">
   {/* Logo */}
   <img src="/assets/images/logo.svg" alt="Logo" className="h-6" />
 
