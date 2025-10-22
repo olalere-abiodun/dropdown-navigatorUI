@@ -14,14 +14,14 @@ function Hero() {
             <span className="inline lg:hidden">Make</span>{" "}
             <span className="inline lg:inline">remote work</span>
           </h1>
-          <p className="lg:mt-15 font-medium lg:w-[350px] lg:text-[14px] lg:font-bold">
+          <p className="mt-8 lg:mt-15 font-medium lg:w-[350px] lg:text-[14px] lg:font-bold">
             Get your team in sync, no matter your location. Streamline
             processes, create team rituals, and watch productivity soar.
           </p>
-          <button className="bg-black text-white rounded-2xl text-[16px] mt-6 px-6 py-3 lg:px-8 lg:py-4 lg:mt-10 lg:text-[20px] font-semibold">
+          <button className="bg-black text-white rounded-2xl text-[16px] mt-10 px-6 py-3 lg:px-8 lg:py-4 lg:mt-10 lg:text-[20px] font-semibold">
             Learn More
           </button>
-          <div className="client flex items-center justify-between gap-4 mt-10 lg:gap-8 lg:mt-20">
+          <div className="client flex items-center justify-between gap-4 mt-15 mb-10 lg:gap-8 lg:mt-20">
             <img
               src="/assets/images/client-databiz.svg"
               alt="Databiz"
